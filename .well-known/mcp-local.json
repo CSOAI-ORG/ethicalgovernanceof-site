@@ -1,0 +1,31 @@
+{
+  "schema_version": "2025-06",
+  "publisher": {
+    "name": "CSOAI Hive",
+    "legal_entity": "MEOK AI LTD",
+    "url": "https://csoai.org"
+  },
+  "site": {
+    "name": "EthicalGovernanceOf",
+    "domain": "ethicalgovernanceof.ai",
+    "sector": "compliance"
+  },
+  "registry": "https://csoai.org/.well-known/mcp.json",
+  "published_mcp_servers_total": 271,
+  "servers": [
+    {
+      "name": "ai-governance-crosswalk-mcp",
+      "tool": "ai-governance-crosswalk-mcp.map",
+      "description": "Crosswalk a control or policy across ISO 42001, NIST AI RMF and the EU AI Act from any agent.",
+      "endpoint": "https://ethicalgovernanceof.ai/mcp/ai-governance-crosswalk-mcp",
+      "tier": "vertical"
+    },
+    {
+      "name": "iso-42001-readiness-mcp",
+      "tool": "iso-42001-readiness-mcp.assess",
+      "description": "Return ISO 42001 certification readiness with gaps and required evidence.",
+      "endpoint": "https://ethicalgovernanceof.ai/mcp/iso-42001-readiness-mcp",
+      "tier": "vertical"
+    }
+  ]
+}
